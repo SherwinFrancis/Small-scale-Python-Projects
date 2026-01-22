@@ -7,5 +7,5 @@ def removeElement(nums, val) :
             if not nums[i] == val:
                 nums[j] = nums[i]
                 j += 1
-        return j
+    return len(nums[:j])
 
